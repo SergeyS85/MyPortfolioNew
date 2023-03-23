@@ -1,0 +1,97 @@
+/* USER VARIABLES SECTION */
+
+
+
+/* BOOTSTRAP SETTINGS SECTION */
+
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+/*.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; }*/
+
+/* FONTS LOAD SECTION */
+
+@font-face{
+	src: url();
+	font-family: sans-serif;
+}
+
+/* GENERAL CSS SETTINGS */
+
+::placeholder { color: #666; }
+::selection { background-color: var(--accent); color: #fff; }
+input, textarea { outline: none; }
+input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
+input:required:valid, textarea:required:valid { border-color: green; }
+
+:root{
+	font-size: 16px;
+	line-height: 1; 
+}
+
+body {
+	color: white;
+	width: 100%;
+	height: 100%; 
+	background-color: #303030;
+	position: relative;
+	overflow-x: hidden;
+}
+
+footer,aside,header,
+nav,article,menu,
+figure,section,picture,
+video,audio{
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 0;
+}
+
+a{
+	display: block;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+	width: 100%;
+	height: 100%;
+}
+img{
+	max-width: 100%;
+}
+.button,.btn{
+	cursor: pointer;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.wrapper{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.container{
+	margin: 0 auto; 
+	width:100%;
+	min-height: 100%;
+	max-width: 162rem;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+          /* //////// main user style /////////*/
