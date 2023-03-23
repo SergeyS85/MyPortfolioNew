@@ -1,0 +1,20 @@
+.header-work{
+	min-height: 400px;
+	width: 100%;
+	background: url(../img/jpeg_foto_bg/keyboard.jpg) no-repeat;
+	background-size: cover;
+}
+.header-work .container{
+	position: relative;
+	min-height: 400px;
+}
+.section_1-work{
+	width: 100%;
+	min-height: 434px;
+}
+.section_1-work  h2{
+	color: rgb(2,23,37);
+}
+.section_1-work .section_content_block{
+	padding-top: 126px;
+}

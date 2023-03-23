@@ -1,0 +1,449 @@
+@font-face{
+	font-family:"OpenSans"  ;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: "OpenSans-Light"  ;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: "OpenSans-Semibold" ; 
+	src: url(../fonts/OpenSans-Semibold.ttf);
+}@font-face{
+	font-family: "Cardo" ; 
+	src: url(../fonts/cardo_[allfont.ru].ttf);
+}
+   					/*///RESET CSS///*/
+:root{
+	font-size: 16px;
+	font-family:Helvetica,Arial,sans-serif; 
+}
+body{
+	color: rgba(2,23,37,0.7);
+	  font-family:"OpenSans"  ;
+}
+*,*:before,*:after
+{
+	box-sizing: border-box;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 0;
+}
+a{
+	display: block;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+	width: 100%;
+	height: 100%;
+}
+img{
+	max-width: 100%;
+}
+.button,.btn{
+	cursor: pointer;
+}
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+} 
+.wrapper{
+	height: 100%;
+	width: 100%;
+}
+.container{
+	margin: 0 auto; 
+	width:100%;
+	height: 100%;
+	max-width:1185px;
+}
+						/*\\\RESET CSS\\\*/
+
+						/*///ALL START BODY STYLE ///*/
+h2{
+	font-family: "OpenSans-Semibold" ;
+	font-size: 44px;
+	color: rgba(2,23,37,0.5);
+	margin-top: 10px;
+}
+h3{
+	font-family: "OpenSans-Semibold" ; 
+	font-size: 13px;
+	color: #d4af37;
+	text-transform: uppercase;
+	font-weight: 500;
+}	
+p{
+	font-family: "OpenSans-Light"  ;
+	font-size: 18px;
+	color: rgb(2,23,37);
+	line-height: 32px;
+	margin-top: 20px;
+}
+.button{
+	border: 1px solid rgb(2,23,37);
+	width: 237px;
+	height: 57px;
+	margin: 0 auto;
+	margin-top: 50px;
+}	
+.button>a{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(2,23,37);
+	font-size: 14px;
+}				
+						/*\\\ALL START BODY STYLE \\\*/
+
+   					/*///HEADER///*/
+			/*///header__navigation///*/
+.header_main{
+	width: 100%;
+	min-height: 700px;	
+	background: url(../img/jpeg_foto_bg/ss2.jpg) no-repeat ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #d4af37;
+}
+.header__navigation{
+	width: 100%;
+	height: 75px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo{
+	width: 192px;
+	height: 42px;
+	background: url(../img/png_icons/logo.png) no-repeat;
+}
+/*///header__nav///*/
+
+header .container{
+	overflow: hidden;
+	position: relative;
+}
+.header_menu{
+  position: absolute;
+  width: 81px;
+  top: 60px;
+  right: -81px;
+  color: #fff;
+  font-size: 16px;
+  transition: 1.2s;
+
+
+}
+.header_menu li{
+	padding-left: 80px;
+	transition: 0.5s;
+	opacity: 1;
+}
+.header_menu li a{
+	transition: 0.2s;
+}
+.header_menu li a:hover{
+	color: #399eb2;
+	text-shadow: 0px 0px 3px   #399eb2;
+
+	
+}
+.header__nav{
+  text-transform: uppercase;
+  width: 70px;
+  height:25px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  /*overflow: hidden;*/
+  margin-right: 1%;
+}
+
+.header__nav> p{
+	color: #fff;
+	font-size: 16px;
+	font-weight:600;
+	margin-top: 0;
+  line-height: 18px;
+}
+
+.header__nav span:before,
+.header__nav span,
+.header__nav span:after{
+	content: "";
+	display: block;
+	width: 18px;
+	height: 2px;
+	background: #fff;
+}	
+.header__nav span:before{
+	transform: translateY(-6px);
+}	
+	
+.header__nav span:after{
+ transform: translateY(4px);
+}
+.active{
+	right: 0px;
+}
+
+/*\\\header__nav\\\*/
+
+/*///header_baner///*/
+.header_baner{
+	width: 100%;
+	height: 625px;
+	background: url(../img/png_icons/banner_line.png) center top no-repeat;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.header_baner h1{
+	font-size: 80px;
+	color: #fff;
+	margin-bottom: 100px;
+	font-family: "OpenSans-Light"  ;
+
+}
+/*\\\header_baner\\\*/
+			/*\\\header__navigation\\\*/
+   					/*\\\HEADER\\\*/
+
+					  /*///SECTION_1/// */
+.section_1{
+	width: 100%;
+	min-height: 800px;
+}
+			/*///section_1-content_block///*/
+.section_content_block{
+	max-width: 770px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+.button{
+	margin-bottom: 163px;
+}
+
+			/*\\\section_1-content_block\\\*/
+					  /*\\\SECTION_1\\\ */
+
+					  /*///SECTION_2///*/
+.section_2{
+	width: 100%;
+	min-height: 610px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.imag_block{
+	width: 24.5%;
+	height: 300px;
+	/*max-width: 310px;*/
+	/*max-height: 300px;*/
+	margin: 2px;
+	overflow: hidden;
+}
+
+
+					  /*\\\SECTION_2\\\*/
+
+					  /*///SECTION_3///*/
+.section_3{
+	width: 100%;
+	min-height: 900px;
+}
+			/*///section_3-content_block///*/
+.section_3-content_block{
+	width: 100%;
+	min-height: 380px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.left_block,
+.middle_block,
+.right_block{
+	width: 33%;
+	height: 100%;
+	text-align: left;
+}	
+.section_3-content_block img{
+	width: 100%;
+}
+.section_3-content_block h3{
+	padding-left: 15px;
+	margin-top: 20px;
+}
+.section_3-content_block h4{
+	font-size: 21px;
+	color: rgba(2,23,37,0.5);
+	padding-left: 15px;
+	margin-top: 20px;
+}
+.section_3-content_block p{
+	font-size: 13px;
+	line-height: 23px;
+  padding-left: 15px;
+}		
+			/*\\\section_3-content_block\\\*/
+					  /*\\\SECTION_3\\\*/
+
+					  /*///SECTION_4///*/
+.section_4{
+	width: 100%;
+	min-height: 710px;
+}
+			/*///section_content_block///*/
+.section_4 .section_content_block{
+	padding-top: 0;
+}
+.section_4 .section_content_block h2{
+	color: rgb(80,93,104);
+}
+/*///read_block///*/
+.read_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 50px;
+}
+.img_block,
+.information_block{
+	width: 50%;
+	min-height: 385px;
+}
+.img_block{
+	background: url(../img/jpeg_foto_bg/man-with-hand-on-temple-looking-at-laptop-842554_2.jpg) no-repeat;
+}
+.information_block{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 35px;
+	text-align: left;
+	
+}
+.information_block>span{
+	font-size: 13px;
+	color: rgb(80,93,104);
+}
+.information_block>h4{
+	font-size: 30px;
+	margin-top: 10px;
+	color: rgb(80,93,104);
+}
+.information_block>p{
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(80,93,104);	
+}
+.information_block>.button{
+	width: 128px;
+	height: 50px;
+	margin: 50px 0 0 0;
+}
+/*\\\read_block\\\*/
+			/*\\\section_content_block\\\*/
+					  /*\\\SECTION_4\\\*/
+
+					  /*///SECTION_5///*/
+
+.googlemap h2{
+	color: rgb(80,93,104);
+}	
+.map_container{
+	margin-top: 55px;
+	border: 1px solid rgb(80,93,104);;
+}	
+			/*///contact_block///*/
+.contact_container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	color: rgb(80,93,104);
+	font-family: "OpenSans-Light";
+	padding-bottom: 65px;
+	justify-content: center;
+}
+/*///contact_blocks///*/
+.contact_blocks{
+	width: 50%;
+	min-width: 385px;
+	height: 215px;
+  padding: 0px 73px;
+}
+.contact_blocks-p{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: "OpenSans-Semibold" ;
+	color: rgb(80,93,104);
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.contact_blocks-span{
+	font-size: 19px;
+	line-height: 34px;
+}
+/*\\\contact_blocks\\\*/			
+			/*\\\contact_block\\\*/
+					  /*\\\SECTION_5\\\*/
+
+					  /*///FOOTER///*/
+footer{
+	background: #eeeeee;
+	width: 100%;
+	height: 95px;
+}	
+footer>.section_content_block{
+	padding: 0 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	font-family: "OpenSans-Light";
+	color: rgb(80,93,104);
+}				  
+					  /*\\\FOOTER\\\*/

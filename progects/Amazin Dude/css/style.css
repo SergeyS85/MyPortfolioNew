@@ -1,0 +1,201 @@
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+   					/*///RESET CSS///*/
+:root{
+	font-size: 16px;
+	font-family:'Fira Sans',Helvetica,Arial,sans-serif;
+	line-height: 1; 
+}
+html,body{
+	height: 100%;
+}
+footer,aside,header,
+nav,article,menu,
+figure,section,picture,
+video,audio{
+	display: block;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 0;
+}
+
+a{
+	display: block;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+	width: 100%;
+	height: 100%;
+}
+img{
+	max-width: 100%;
+}
+.button,.btn{
+	cursor: pointer;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.wrapper{
+	height: 100%;
+	width: 100%;
+	background: #3f729b;
+	overflow-x: hidden;
+}
+.container{
+	margin: 0 auto; 
+	width:100%;
+	height: 100%;
+	max-width:1180px;
+}
+						/*\\\RESET CSS\\\*/
+
+						/*///GENERAL BEGINING BODY STYLE ///*/
+
+						/*\\\GENERAL BEGINING BODY STYLE \\\*/
+
+   					/*///HEADER///*/
+header{
+	min-height: 100vh;
+	background: url(../img/header_img/bannner.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.header__navigation{
+	width: 100%;
+	min-height: 264px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url(../img/header_img/logo.png) no-repeat;
+}
+.header__nav{
+	display: none;
+}
+.hamburger_menu{
+	font-size: 12px;
+	color:#141414;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	width: 32px;
+	min-height: 44px;
+}
+.click_line{
+	display: block;
+	height: 4px;
+	width: 25px;
+	background: #141414;
+	margin-bottom: 3px;
+}
+.burger_text{
+	margin-top: 9px;
+	display: block;
+}
+.header_banner-description{
+	font-weight: 200;
+	color: #000;
+}
+.header_title{
+	font-size: 72px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 80px;
+}
+.header_description{
+	font-size: 30px;
+	line-height: 45px;
+}
+.header_description span{
+	font-weight: 500;
+}
+
+   					/*\\\HEADER\\\*/
+
+
+   					/*///SECTION QUIS///*/
+.quis{
+	width: 100%;
+	min-height: 500px;
+	display: flex;
+	color: #666;
+	background: #fff;
+} 
+.left_box-bg{
+	width: 49%;
+	height: 500px;
+	background: url(../img/section_img/quis.png) no-repeat;
+	background-size: cover;
+}
+.right_box-text{
+	padding: 100px 200px 30px 30px;
+}
+.right_box-text p {
+	width: 800px;
+	font-size: 36px;
+	line-height: 40px;
+}
+   					/*\\\SECTION QIUS\\\*/
+
+         		/*///SECTION INSTAGRAMM///*/
+.instagramm{
+	color: #fff;
+}        		
+         		/*\\\SECTION INSTAGRAMM\\\*/
+   					/* ///MEDIA QUERY/// */
+
+@media(max-width: 782px){
+
+}
+
+/* ///////// */
+@media(min-width: 783px) and (max-width: 900px){
+
+}
+
+/* ///////// */
+@media(min-width: 901px) and (max-width: 1199px){
+
+}
+
+/* ///////// */
+@media(min-width: 1200px){
+
+}  					
+ 					

@@ -1,0 +1,99 @@
+.myproject{
+	background-image: url(../img/myproject/bg3.webp);
+	background-attachment: fixed;
+	background-size: cover;
+	/*overflow-y: scroll;*/
+}
+.project{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+	padding-left: 20px;
+	border: 1px solid transparent;
+	transition: 0.4s;
+}
+.project:hover{
+	border: 1px solid white;
+}
+.project_block{
+	width: 300px;
+	height: 300px;
+	background: #000;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	opacity: 1;
+}
+.project_block a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	font-size: 24px;
+}
+.project_block a:hover{
+	background-color: #000;
+	opacity: 0.7;
+	transition: 0.6s;
+}
+
+.project_block:nth-child(1){
+	background: url(../img/myproject/candy.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(2){
+	background: url(../img/myproject/alexis.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(3){
+	background: url(../img/myproject/jetro.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(4){
+	background: url(../img/myproject/creativia.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(5){
+	background: url(../img/myproject/blog.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(6){
+	background: url(../img/myproject/mmg.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(7){
+	background: url(../img/myproject/dart_service.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(8){
+	background: url(../img/myproject/culinar.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(9){
+	background: url(../img/myproject/elegant.webp) no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.project_block:nth-child(10){
+	background: url(../img/myproject/Ilon_Mask.webp) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.project_block:nth-child(11){
+	background: url(../img/myproject/GSAPScroll.webp) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.project_block:nth-child(12){
+	background: url(../img/myproject/OlyaPortfolio.webp) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
