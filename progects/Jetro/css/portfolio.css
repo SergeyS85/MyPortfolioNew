@@ -1,0 +1,51 @@
+.header__nav li .portfolio{
+	color: rgb(232,102,60);
+}
+.header__nav li .home{
+	color: rgb(185,185,185);
+}
+.header__nav li .blog{
+	color: rgb(185,185,185);
+}
+
+.submenu>li{
+  display: inline-block;
+  color: rgb(185,185,185);
+  padding: 9px;
+  transition: 0.2s;
+}
+.submenu>li:hover{
+	background: #e8663c;
+	color: #fff;
+}
+.portfolio .pfcontainer__block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 26px;
+}
+.img__content--block{
+	position: relative;
+}
+.img__content--block .plashka{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	max-width: 220px;
+	min-height: 234px;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	background: url(../img/png_icons/portfolio/plus.png) no-repeat center center,
+							rgba(0,0,0,0.75);
+	opacity: 0;
+}
+
+.img__content--block .plashka:hover{
+	opacity: 1;
+	border: 1px solid rgba(102,102,102,0.75);
+}
