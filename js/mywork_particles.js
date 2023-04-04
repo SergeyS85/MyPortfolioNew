@@ -1,6 +1,6 @@
 let particles = document.querySelectorAll('.particles'),
-		radius = 1.85,
-		number = 150
+		radius = 3,
+		number = 200
 
 particles.forEach(node => {
 
@@ -12,7 +12,7 @@ particles.forEach(node => {
 				height = window.innerHeight
 
 	node.width = width
-	node.height = height
+	node.height = height/2
 	ctx.fillStyle = clr
 
 	let dots = {
@@ -74,6 +74,6 @@ function hexToRgbA(hex) {
 		let c = hex.substring(1).split('')
 		if (c.length == 3) { c = [c[0], c[0], c[1], c[1], c[2], c[2]] }
 		c = `0x${c.join('')}`
-		return `rgba(${[(c >> 16) & 255, (c >> 8) & 255, c & 255].join(',')}, 1`
+		return `rgba(${[(c >> 16) & 255, (c >> 8) & 255, c & 255].join(',')}, 0.6`
 	} throw new Error('Bad Hex')
 }

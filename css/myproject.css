@@ -1,3 +1,17 @@
+.particles{
+	width: 100vw;
+	height: 50vh;
+	position: fixed;
+	/*inset: 0;*/
+	/*z-index: 1;*/
+}
+.p_1{
+	top: 0;
+}
+.p_2{
+	top: 50%;
+}
+
 .myproject{
 	background-image: url(../img/myproject/bg3.webp);
 	background-attachment: fixed;
@@ -30,13 +44,13 @@
 	align-items: center;
 	opacity: 0;
 	font-size: 24px;
+	transition: 0.4s;
 }
 .project_block a:hover{
 	background-color: #000;
-	opacity: 0.7;
-	transition: 0.6s;
+	opacity: 0.7;	
+	border: 1px solid white;
 }
-
 .project_block:nth-child(1){
 	background: url(../img/myproject/candy.webp) no-repeat;
 	background-size: cover;
@@ -94,6 +108,11 @@
 }
 .project_block:nth-child(12){
 	background: url(../img/myproject/OlyaPortfolio.webp) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.project_block:nth-child(13){
+	background: url(../img/myproject/wedmak_paralax.webp) no-repeat;
 	background-size: cover;
 	background-position: center;
 }

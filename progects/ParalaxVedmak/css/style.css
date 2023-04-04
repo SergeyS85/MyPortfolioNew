@@ -84,7 +84,7 @@ img{
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 .container{
 	margin: 0 auto; 
@@ -95,3 +95,27 @@ img{
 	padding-right: 10px;
 }
           /* //////// main user style /////////*/
+.slider{
+	height: 100vh;
+}
+.slider_layer{
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position:  center;
+	will-change: transform;
+}
+.slider_layer::before{
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	box-shadow: inset 0 0 250px rgba(0,0,0,.3);
+}
+.slider_item{
+	overflow: hidden;
+}
+.slider_wrapper{
+	will-change: transform;
+	transform-style: preserve-3d;
+}
