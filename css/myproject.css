@@ -131,3 +131,8 @@
 	background-size: cover;
 	background-position: center;
 }
+.project_block:nth-child(17){
+	background: url(../img/myproject/Aali.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
