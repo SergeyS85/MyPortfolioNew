@@ -100,7 +100,7 @@ img{
 	padding-left: 10px;
 	padding-right: 10px;
 }
-          /* //////// main user style /////////*/
+                                                       /* //////// main user style /////////*/
 header{
 	height: 1079px;
 	background-color: var(--colorsquerdark);
@@ -130,7 +130,7 @@ menu li:hover{
 	width: 176px;
 	height: 72px;
 }
-       /*/// header__banner ///*/
+                                                           /*////// header__banner //////*/
 .header__banner{
 	display: flex;
 }
@@ -284,7 +284,7 @@ menu li:hover{
 	top: 100px;
 }
 
-      /*/// iam-aali ///*/
+                                                                /*////// iam-aali //////*/
 .iam-aali{
 	height: 985px;
 	background-color: #f4f5fe;
@@ -393,7 +393,7 @@ h2 > span{
 	bottom: -120px;
 	border-radius: 10px;
 }
-       /*/// skills ///*/
+                                                                    /*////// skills //////*/
 .skills{
 	height: 1060px;
 	background: var(--colorbgsection);
@@ -584,7 +584,7 @@ h2 > span{
 	font-size: 24px;
 }
 
-        /*/// service ///*/
+                                                       /*////// service //////*/
 
 .service{
 	height: 1300px;
@@ -707,7 +707,7 @@ h2 > span{
 	border-radius: 10px;
 }
 
-      /*/// resume ///*/
+                                                              /*////// resume //////   */
 
 .resume{
 	height: 1300px;
@@ -834,7 +834,7 @@ h2 > span{
 	background: url(../images/section/section_Resume/experienceicon.png) no-repeat;
 }
 
-      /*/// peoplesay ///*/
+                                                             /*////// peoplesay //////*/
 
 .peoplesay{
 	height: 865px;
@@ -868,10 +868,12 @@ h2 > span{
 }
 
 /*/// peoplesay__right-block ///*/
-
+.peoplesay__relative-decor-container{
+	position: relative;
+}
 .peoplesay__right-block{
-	position: relative;	
-	overflow: hidden;
+	overflow-x: hidden;
+	height: 100%;
 }
 
 .peoplesay__right-block__decorkoma-block{
@@ -890,19 +892,26 @@ h2 > span{
 	background: var(--colorsquerdark);
 	bottom: -70px;
 	right: 300px;
+	z-index: 3;
 }
 
 .peoplesay__right-block h3{
 	font-size: 24px;
+	transition: 0.4s ease-in-out;
+	transition-delay: 0.1s;
 }
 .peoplesay__right-block h2{
 	margin-top: 25px;
 	margin-bottom: 90px;
 	font-size: 60px;
+	transition: 0.5s ease-in-out;
+	transition-delay: 0.2s;
 }
 .peoplesay__right-block p{
 	font-size: 30px;
 	line-height: 1.5;
+	transition: 0.6s ease-in-out;
+	transition-delay: 0.3s;
 }
 .autor-block{
 	position: relative;
@@ -921,12 +930,15 @@ h2 > span{
 }
 .autor-block h4{
 	font-size: 21px;
+	transition: 0.7s ease-in-out;
+	transition-delay: 0.s;
 }
 .autor-block h4 span{
 	font-size: 18px;
 	margin-left: 30px;
 	font-weight: 100;
 }
+
 /*/// arrow__block ///*/
 .arrowslide-block{
 	width: 100px;
@@ -937,14 +949,25 @@ h2 > span{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 5px;
+	margin-left: 15px;
+	z-index: 5;
+}
+.left__arrow-container,.right__arrow-container{
+	width: 30px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.3s;
 }
 .left__arrow,.right__arrow{
 	width: 30px;
 	height: 3px;
 	background: #fff;
-	position: relative;
-	cursor: pointer;
+	position: relative;	
+}
+.left__arrow-container:hover,.right__arrow-container:hover{
+	transform: scale(1.5)
 }
 .left__arrow::before,.right__arrow::before,
 .left__arrow::after,.right__arrow::after{
@@ -974,16 +997,126 @@ h2 > span{
   transform: rotate(45deg) skew(-45deg);
   transform-origin: right center;
 }
+
 /*/// slider-container ///*/
 .peoplesay__slider-container{
 	display: flex;
 	width: 1000%;
-	transition: 0.7 ease-in-out;
+	height: 100%;
 }
 .peoplesay__right-block__slider-container{
 	padding-top: 160px;
 	padding-right: 300px;
 	width: 50vw;
+	height: 100%;
 	flex-shrink: 1;
 }
 
+                                                               /*////// blog //////*/
+.blog{
+	height: 1255px;
+	background: #f4f5fe;
+	color: var(--colortexttitle);
+}
+.blog h3{
+	color: var(--colortextred);
+	margin-bottom: 20px;
+}
+/*/// blog__top-block ///*/
+.blog__top-block{
+	text-align: center;
+	padding-top: 170px;
+}
+.blog__top-block h3{
+	font-size: 24px;
+}
+.blog__top-block h2{
+	font-size: 60px;
+}
+.blog__top-block p{
+	font-size: 18px;
+	color: #7d7789;
+	padding: 0 35%;
+}
+
+/*/// blog__bottom-block ///*/
+.blog__bottom-block{
+	padding-top: 90px;
+	width: 100%;
+}
+.blog__bottom-block h3{
+	font-size: 18px;
+}
+.blog__bottom-block__content-container{
+	display: flex;
+	width: 1200px;
+	height: 292px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.blog__bottom-block__content-container p{
+	font-size: 36px;
+	margin-top: 20px;
+	margin-bottom: 32px;
+}
+.blog__bottom-block__content-container .img__container{
+	width: 425px;
+	height: 292px;
+	border-radius: 10px;
+}
+.blog__title-block{
+	margin-right: 100px;
+	width: 400px;
+}
+.blog__btn a {
+	width: 170px;
+	height: 57px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	border: 2px solid var(--colortextred);
+}
+
+                                                      /*////// statistic-content //////*/
+.statistic-content{
+	height: 350px;
+	background: var(--colorbgsection);
+	position: relative;
+}                                                      
+.statistic-content__container{
+	width: 1145px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.statistic__block{
+	display: flex;
+	line-height: 1.4;
+}
+.statistic__block h3{
+	font-size: 72px;
+	/*letter-spacing: 0;*/
+}
+.statistic__block h3>span{
+	font-size: 80px;
+	margin-left: -20px;
+}
+.statistic__block p{
+	font-size: 30px;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+.statistic__whiteline{
+	width: 6px;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	right: 200px;
+}
