@@ -136,3 +136,8 @@
 	background-size: cover;
 	background-position: center;
 }
+.project_block:nth-child(18){
+	background: url(../img/myproject/homefront.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}

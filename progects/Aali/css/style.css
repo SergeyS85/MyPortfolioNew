@@ -31,6 +31,7 @@ input:required:valid, textarea:required:valid { border-color: green; }
 	--colorsquerdark: #3c3c3c;
 	--colortextred  : #ea4343;
 	--colortexttitle: #15111e;
+	--sizeindex: calc(1vh + 1vw);
 }
 
 body {
@@ -100,8 +101,10 @@ img{
 	padding-left: 10px;
 	padding-right: 10px;
 }
-                                                       /* //////// main user style /////////*/
+                                                     /* //////// main user style /////////*/
+                                                    
 header{
+	max-width: 100%;
 	height: 1079px;
 	background-color: var(--colorsquerdark);
 	position: relative;
@@ -110,6 +113,7 @@ header{
 nav{
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 	height: 146px;
 	align-items: center;
 }
