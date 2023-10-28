@@ -198,9 +198,9 @@ header{
 	align-items: center;
 }	
 .header__logo a{
-	width: 97px;
+	width: 102px;
 	height: 97px;
-	background: url(../img/header_img/logo.png) no-repeat;
+	background: url(../img/header_img/logo.svg) no-repeat;
 	background-size: cover;
 }	
 .header__nav{
