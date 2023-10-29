@@ -2,8 +2,6 @@
 	width: 100vw;
 	height: 50vh;
 	position: fixed;
-	/*inset: 0;*/
-	/*z-index: 1;*/
 }
 .p_1{
 	top: 0;
@@ -12,12 +10,12 @@
 	top: 50%;
 }
 
-.myproject{
+.bodymyproject{
 	background-image: url(../img/myproject/bg3.webp);
 	background-attachment: fixed;
 	background-size: cover;
-	/*overflow-y: scroll;*/
 }
+
 .project{
 	display: flex;
 	flex-wrap: wrap;
@@ -27,6 +25,7 @@
 	border: 1px solid transparent;
 	transition: 0.4s;
 }
+
 .project:hover{
 	border: 1px solid white;
 }
