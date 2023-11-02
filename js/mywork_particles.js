@@ -68,7 +68,6 @@ particles.forEach(node => {
 	setInterval(createDots, 1000 / 30)
 
 })
-
 function hexToRgbA(hex) {
 	if (/^#([A-Fa-f0-9]{3}){1,2}$/.test(hex)) {
 		let c = hex.substring(1).split('')

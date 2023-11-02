@@ -1,3 +1,5 @@
+html {scroll-behavior: smooth;}
+
 body{
 	background: url(../img/background_content/metodichka_background.jpg) no-repeat;
 	background-attachment: fixed;

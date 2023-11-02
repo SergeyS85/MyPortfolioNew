@@ -47,3 +47,5 @@ sliderContainer.addEventListener('click', function(event){
   	developersnameContainerPSpan.innerText = event.target.dataset.professional;
   }
 })
+
+
